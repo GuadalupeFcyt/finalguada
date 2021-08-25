@@ -1,10 +1,10 @@
 /* uses font awesome for social icons */
-@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+
 
 .page-header{
   text-align: center;
   text-decoration: underline;
-     color: brown;    
+     color: brown;
 }
 /*imagen*/
 .imgRedonda {
@@ -17,8 +17,9 @@
 .btn-social{
   color: white;
   opacity:1;
-   width: 100px;
-  height: 40px
+  width: 100px;
+  height: 40px;
+
 }
 .btn-social:hover {
   color: white;
@@ -26,11 +27,12 @@
 }
 .btn-facebook {
 background-color: #3b5998;
-opacity:0.9;
+opacity:1;
 }
 .btn-github{
   background-color:#000000;
   opacity:0.9;
+
 }
 .btn-google {
   background-color: #c32f10;
@@ -67,7 +69,7 @@ opacity:0.9;
 
 .bs-callout-danger h4{
     color: #000000;
-    text-decoration: underline  
+    text-decoration: underline
 
 }
 
@@ -141,7 +143,7 @@ opacity:0.9;
 	border-left-width: 2px;
 }
 
-.progress-meter > .meter > .meter-text { 
+.progress-meter > .meter > .meter-text {
 	position: absolute;
 	display: inline-block;
 	bottom: -20px;
@@ -157,4 +159,3 @@ opacity:0.9;
 	text-align: right;
 
 }
-
